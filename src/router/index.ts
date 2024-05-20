@@ -8,8 +8,10 @@ const routes: Array<RouteRecordRaw> = [
     component: Dashboard,
   },
 ];
+
 const router = createRouter({
-  history: createWebHistory(process.env.BASE_URL),
+  // @ts-ignore
+  history: createWebHistory(import.meta!.env!.VITE_PUBLIC_PATH),
   routes,
 });
 
