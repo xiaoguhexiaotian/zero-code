@@ -20,3 +20,6 @@ pnpm build
       - 需要配置 commitlint.config 文件,可自定义规则
       - "@commitlint/cli": "^18.4.3",
       - "@commitlint/config-conventional": "^18.4.3",
+    - 组件自动引入
+      - "unplugin-auto-import": "^0.17.6",
+      - "unplugin-vue-components": "^0.25.1",
